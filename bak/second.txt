@@ -1,0 +1,673 @@
+
+  def solidcolor(children: ReactNode*): ReactElement =
+    CreateDOMElement("solidcolor", json(), children = children.toJSArray)
+
+  @inline
+  def big(children: ReactNode*): ReactElement =
+    CreateDOMElement("big", json(), children = children.toJSArray)
+
+  @inline
+  def tr(children: ReactNode*): ReactElement =
+    CreateDOMElement("tr", json(), children = children.toJSArray)
+
+  @inline
+  def cite(children: ReactNode*): ReactElement =
+    CreateDOMElement("cite", json(), children = children.toJSArray)
+
+  @inline
+  def html(children: ReactNode*): ReactElement =
+    CreateDOMElement("html", json(), children = children.toJSArray)
+
+  @inline
+  def footer(children: ReactNode*): ReactElement =
+    CreateDOMElement("footer", json(), children = children.toJSArray)
+
+  @inline
+  def h4(children: ReactNode*): ReactElement =
+    CreateDOMElement("h4", json(), children = children.toJSArray)
+
+  @inline
+  def caption(children: ReactNode*): ReactElement =
+    CreateDOMElement("caption", json(), children = children.toJSArray)
+
+  @inline
+  def datalist(children: ReactNode*): ReactElement =
+    CreateDOMElement("datalist", json(), children = children.toJSArray)
+
+  @inline
+  def header(children: ReactNode*): ReactElement =
+    CreateDOMElement("header", json(), children = children.toJSArray)
+
+  @inline
+  def canvas(children: ReactNode*): ReactElement =
+    CreateDOMElement("canvas", json(), children = children.toJSArray)
+
+  @inline
+  def feFuncB(children: ReactNode*): ReactElement =
+    CreateDOMElement("feFuncB", json(), children = children.toJSArray)
+
+  @inline
+  def b(children: ReactNode*): ReactElement =
+    CreateDOMElement("b", json(), children = children.toJSArray)
+
+  @inline
+  def mesh(children: ReactNode*): ReactElement =
+    CreateDOMElement("mesh", json(), children = children.toJSArray)
+
+  @inline
+  def table(children: ReactNode*): ReactElement =
+    CreateDOMElement("table", json(), children = children.toJSArray)
+
+  @inline
+  def style(children: ReactNode*): ReactElement =
+    CreateDOMElement("style", json(), children = children.toJSArray)
+
+  @inline
+  def title(children: ReactNode*): ReactElement =
+    CreateDOMElement("title", json(), children = children.toJSArray)
+
+  @inline
+  def tfoot(children: ReactNode*): ReactElement =
+    CreateDOMElement("tfoot", json(), children = children.toJSArray)
+
+  @inline
+  def view(children: ReactNode*): ReactElement =
+    CreateDOMElement("view", json(), children = children.toJSArray)
+
+  @inline
+  def details(children: ReactNode*): ReactElement =
+    CreateDOMElement("details", json(), children = children.toJSArray)
+
+  @inline
+  def feDistantLight(children: ReactNode*): ReactElement =
+    CreateDOMElement("feDistantLight", json(), children = children.toJSArray)
+
+  @inline
+  def hgroup(children: ReactNode*): ReactElement =
+    CreateDOMElement("hgroup", json(), children = children.toJSArray)
+
+  @inline
+  def q(children: ReactNode*): ReactElement =
+    CreateDOMElement("q", json(), children = children.toJSArray)
+
+  @inline
+  def meshpatch(children: ReactNode*): ReactElement =
+    CreateDOMElement("meshpatch", json(), children = children.toJSArray)
+
+  @inline
+  def legend(children: ReactNode*): ReactElement =
+    CreateDOMElement("legend", json(), children = children.toJSArray)
+
+  @inline
+  def feTurbulence(children: ReactNode*): ReactElement =
+    CreateDOMElement("feTurbulence", json(), children = children.toJSArray)
+
+  @inline
+  def set(children: ReactNode*): ReactElement =
+    CreateDOMElement("set", json(), children = children.toJSArray)
+
+  @inline
+  def meshgradient(children: ReactNode*): ReactElement =
+    CreateDOMElement("meshgradient", json(), children = children.toJSArray)
+
+  @inline
+  def del(children: ReactNode*): ReactElement =
+    CreateDOMElement("del", json(), children = children.toJSArray)
+
+  @inline
+  def line(children: ReactNode*): ReactElement =
+    CreateDOMElement("line", json(), children = children.toJSArray)
+
+  @inline
+  def rt(children: ReactNode*): ReactElement =
+    CreateDOMElement("rt", json(), children = children.toJSArray)
+
+  @inline
+  def map(children: ReactNode*): ReactElement =
+    CreateDOMElement("map", json(), children = children.toJSArray)
+
+  @inline
+  def fieldset(children: ReactNode*): ReactElement =
+    CreateDOMElement("fieldset", json(), children = children.toJSArray)
+
+  @inline
+  def menu(children: ReactNode*): ReactElement =
+    CreateDOMElement("menu", json(), children = children.toJSArray)
+
+  @inline
+  def polygon(children: ReactNode*): ReactElement =
+    CreateDOMElement("polygon", json(), children = children.toJSArray)
+
+  @inline
+  def ol(children: ReactNode*): ReactElement =
+    CreateDOMElement("ol", json(), children = children.toJSArray)
+
+  @inline
+  def unknown(children: ReactNode*): ReactElement =
+    CreateDOMElement("unknown", json(), children = children.toJSArray)
+
+  @inline
+  def tbody(children: ReactNode*): ReactElement =
+    CreateDOMElement("tbody", json(), children = children.toJSArray)
+
+  @inline
+  def feDiffuseLighting(children: ReactNode*): ReactElement =
+    CreateDOMElement("feDiffuseLighting",
+                     json(),
+                     children = children.toJSArray)
+
+  @inline
+  def feImage(children: ReactNode*): ReactElement =
+    CreateDOMElement("feImage", json(), children = children.toJSArray)
+
+  @inline
+  def pre(children: ReactNode*): ReactElement =
+    CreateDOMElement("pre", json(), children = children.toJSArray)
+
+  @inline
+  def filter(children: ReactNode*): ReactElement =
+    CreateDOMElement("filter", json(), children = children.toJSArray)
+
+  @inline
+  def optgroup(children: ReactNode*): ReactElement =
+    CreateDOMElement("optgroup", json(), children = children.toJSArray)
+
+  @inline
+  def mask(children: ReactNode*): ReactElement =
+    CreateDOMElement("mask", json(), children = children.toJSArray)
+
+  @inline
+  def u(children: ReactNode*): ReactElement =
+    CreateDOMElement("u", json(), children = children.toJSArray)
+
+  @inline
+  def image(children: ReactNode*): ReactElement =
+    CreateDOMElement("image", json(), children = children.toJSArray)
+
+  @inline
+  def select(children: ReactNode*): ReactElement =
+    CreateDOMElement("select", json(), children = children.toJSArray)
+
+  @inline
+  def s(children: ReactNode*): ReactElement =
+    CreateDOMElement("s", json(), children = children.toJSArray)
+
+  @inline
+  def use(children: ReactNode*): ReactElement =
+    CreateDOMElement("use", json(), children = children.toJSArray)
+
+  @inline
+  def thead(children: ReactNode*): ReactElement =
+    CreateDOMElement("thead", json(), children = children.toJSArray)
+
+  @inline
+  def feMergeNode(children: ReactNode*): ReactElement =
+    CreateDOMElement("feMergeNode", json(), children = children.toJSArray)
+
+  @inline
+  def h6(children: ReactNode*): ReactElement =
+    CreateDOMElement("h6", json(), children = children.toJSArray)
+
+  @inline
+  def abbr(children: ReactNode*): ReactElement =
+    CreateDOMElement("abbr", json(), children = children.toJSArray)
+
+  @inline
+  def meshrow(children: ReactNode*): ReactElement =
+    CreateDOMElement("meshrow", json(), children = children.toJSArray)
+
+  @inline
+  def td(children: ReactNode*): ReactElement =
+    CreateDOMElement("td", json(), children = children.toJSArray)
+
+  @inline
+  def em(children: ReactNode*): ReactElement =
+    CreateDOMElement("em", json(), children = children.toJSArray)
+
+  @inline
+  def feFlood(children: ReactNode*): ReactElement =
+    CreateDOMElement("feFlood", json(), children = children.toJSArray)
+
+  @inline
+  def svg(children: ReactNode*): ReactElement =
+    CreateDOMElement("svg", json(), children = children.toJSArray)
+
+  @inline
+  def colgroup(children: ReactNode*): ReactElement =
+    CreateDOMElement("colgroup", json(), children = children.toJSArray)
+
+  @inline
+  def bdo(children: ReactNode*): ReactElement =
+    CreateDOMElement("bdo", json(), children = children.toJSArray)
+
+  @inline
+  def circle(children: ReactNode*): ReactElement =
+    CreateDOMElement("circle", json(), children = children.toJSArray)
+
+  @inline
+  def time(children: ReactNode*): ReactElement =
+    CreateDOMElement("time", json(), children = children.toJSArray)
+
+  @inline
+  def feBlend(children: ReactNode*): ReactElement =
+    CreateDOMElement("feBlend", json(), children = children.toJSArray)
+
+  @inline
+  def ul(children: ReactNode*): ReactElement =
+    CreateDOMElement("ul", json(), children = children.toJSArray)
+
+  @inline
+  def body(children: ReactNode*): ReactElement =
+    CreateDOMElement("body", json(), children = children.toJSArray)
+
+  @inline
+  def output(children: ReactNode*): ReactElement =
+    CreateDOMElement("output", json(), children = children.toJSArray)
+
+  @inline
+  def feOffset(children: ReactNode*): ReactElement =
+    CreateDOMElement("feOffset", json(), children = children.toJSArray)
+
+  @inline
+  def `var`(children: ReactNode*): ReactElement =
+    CreateDOMElement("var", json(), children = children.toJSArray)
+
+  @inline
+  def progress(children: ReactNode*): ReactElement =
+    CreateDOMElement("progress", json(), children = children.toJSArray)
+
+  @inline
+  def h1(children: ReactNode*): ReactElement =
+    CreateDOMElement("h1", json(), children = children.toJSArray)
+
+  @inline
+  def figcaption(children: ReactNode*): ReactElement =
+    CreateDOMElement("figcaption", json(), children = children.toJSArray)
+
+  @inline
+  def stop(children: ReactNode*): ReactElement =
+    CreateDOMElement("stop", json(), children = children.toJSArray)
+
+  @inline
+  def defs(children: ReactNode*): ReactElement =
+    CreateDOMElement("defs", json(), children = children.toJSArray)
+
+  @inline
+  def iframe(children: ReactNode*): ReactElement =
+    CreateDOMElement("iframe", json(), children = children.toJSArray)
+
+  @inline
+  def small(children: ReactNode*): ReactElement =
+    CreateDOMElement("small", json(), children = children.toJSArray)
+
+  @inline
+  def textPath(children: ReactNode*): ReactElement =
+    CreateDOMElement("textPath", json(), children = children.toJSArray)
+
+  @inline
+  def picture(children: ReactNode*): ReactElement =
+    CreateDOMElement("picture", json(), children = children.toJSArray)
+
+  @inline
+  def a(children: ReactNode*): ReactElement =
+    CreateDOMElement("a", json(), children = children.toJSArray)
+
+  @inline
+  def article(children: ReactNode*): ReactElement =
+    CreateDOMElement("article", json(), children = children.toJSArray)
+
+  @inline
+  def blockquote(children: ReactNode*): ReactElement =
+    CreateDOMElement("blockquote", json(), children = children.toJSArray)
+
+  @inline
+  def fePointLight(children: ReactNode*): ReactElement =
+    CreateDOMElement("fePointLight", json(), children = children.toJSArray)
+
+  @inline
+  def feFuncA(children: ReactNode*): ReactElement =
+    CreateDOMElement("feFuncA", json(), children = children.toJSArray)
+
+  @inline
+  def bdi(children: ReactNode*): ReactElement =
+    CreateDOMElement("bdi", json(), children = children.toJSArray)
+
+  @inline
+  def li(children: ReactNode*): ReactElement =
+    CreateDOMElement("li", json(), children = children.toJSArray)
+
+  @inline
+  def cursor(children: ReactNode*): ReactElement =
+    CreateDOMElement("cursor", json(), children = children.toJSArray)
+
+  @inline
+  def h5(children: ReactNode*): ReactElement =
+    CreateDOMElement("h5", json(), children = children.toJSArray)
+
+  @inline
+  def dialog(children: ReactNode*): ReactElement =
+    CreateDOMElement("dialog", json(), children = children.toJSArray)
+
+  @inline
+  def kbd(children: ReactNode*): ReactElement =
+    CreateDOMElement("kbd", json(), children = children.toJSArray)
+
+  @inline
+  def nav(children: ReactNode*): ReactElement =
+    CreateDOMElement("nav", json(), children = children.toJSArray)
+
+  @inline
+  def aside(children: ReactNode*): ReactElement =
+    CreateDOMElement("aside", json(), children = children.toJSArray)
+
+  @inline
+  def animateTransform(children: ReactNode*): ReactElement =
+    CreateDOMElement("animateTransform", json(), children = children.toJSArray)
+
+  @inline
+  def g(children: ReactNode*): ReactElement =
+    CreateDOMElement("g", json(), children = children.toJSArray)
+
+  @inline
+  def span(children: ReactNode*): ReactElement =
+    CreateDOMElement("span", json(), children = children.toJSArray)
+
+  @inline
+  def ellipse(children: ReactNode*): ReactElement =
+    CreateDOMElement("ellipse", json(), children = children.toJSArray)
+
+  @inline
+  def feSpotLight(children: ReactNode*): ReactElement =
+    CreateDOMElement("feSpotLight", json(), children = children.toJSArray)
+
+  @inline
+  def feFuncG(children: ReactNode*): ReactElement =
+    CreateDOMElement("feFuncG", json(), children = children.toJSArray)
+
+  @inline
+  def th(children: ReactNode*): ReactElement =
+    CreateDOMElement("th", json(), children = children.toJSArray)
+
+  @inline
+  def pattern(children: ReactNode*): ReactElement =
+    CreateDOMElement("pattern", json(), children = children.toJSArray)
+
+  @inline
+  def ins(children: ReactNode*): ReactElement =
+    CreateDOMElement("ins", json(), children = children.toJSArray)
+
+  @inline
+  def p(children: ReactNode*): ReactElement =
+    CreateDOMElement("p", json(), children = children.toJSArray)
+
+  @inline
+  def `object`(children: ReactNode*): ReactElement =
+    CreateDOMElement("object", json(), children = children.toJSArray)
+
+  @inline
+  def hatchpath(children: ReactNode*): ReactElement =
+    CreateDOMElement("hatchpath", json(), children = children.toJSArray)
+
+  @inline
+  def feMerge(children: ReactNode*): ReactElement =
+    CreateDOMElement("feMerge", json(), children = children.toJSArray)
+
+  @inline
+  def feColorMatrix(children: ReactNode*): ReactElement =
+    CreateDOMElement("feColorMatrix", json(), children = children.toJSArray)
+
+  @inline
+  def script(children: ReactNode*): ReactElement =
+    CreateDOMElement("script", json(), children = children.toJSArray)
+
+  @inline
+  def feMorphology(children: ReactNode*): ReactElement =
+    CreateDOMElement("feMorphology", json(), children = children.toJSArray)
+
+  @inline
+  def summary(children: ReactNode*): ReactElement =
+    CreateDOMElement("summary", json(), children = children.toJSArray)
+
+  @inline
+  def feFuncR(children: ReactNode*): ReactElement =
+    CreateDOMElement("feFuncR", json(), children = children.toJSArray)
+
+  @inline
+  def sup(children: ReactNode*): ReactElement =
+    CreateDOMElement("sup", json(), children = children.toJSArray)
+
+  @inline
+  def clipPath(children: ReactNode*): ReactElement =
+    CreateDOMElement("clipPath", json(), children = children.toJSArray)
+
+  @inline
+  def dt(children: ReactNode*): ReactElement =
+    CreateDOMElement("dt", json(), children = children.toJSArray)
+
+  @inline
+  def hatch(children: ReactNode*): ReactElement =
+    CreateDOMElement("hatch", json(), children = children.toJSArray)
+
+  @inline
+  def code(children: ReactNode*): ReactElement =
+    CreateDOMElement("code", json(), children = children.toJSArray)
+
+  @inline
+  def polyline(children: ReactNode*): ReactElement =
+    CreateDOMElement("polyline", json(), children = children.toJSArray)
+
+  @inline
+  def h2(children: ReactNode*): ReactElement =
+    CreateDOMElement("h2", json(), children = children.toJSArray)
+
+  @inline
+  def address(children: ReactNode*): ReactElement =
+    CreateDOMElement("address", json(), children = children.toJSArray)
+
+  @inline
+  def feComponentTransfer(children: ReactNode*): ReactElement =
+    CreateDOMElement("feComponentTransfer",
+                     json(),
+                     children = children.toJSArray)
+
+  @inline
+  def feDropShadow(children: ReactNode*): ReactElement =
+    CreateDOMElement("feDropShadow", json(), children = children.toJSArray)
+
+  @inline
+  def ruby(children: ReactNode*): ReactElement =
+    CreateDOMElement("ruby", json(), children = children.toJSArray)
+
+  @inline
+  def feSpecularLighting(children: ReactNode*): ReactElement =
+    CreateDOMElement("feSpecularLighting",
+                     json(),
+                     children = children.toJSArray)
+
+  @inline
+  def path(children: ReactNode*): ReactElement =
+    CreateDOMElement("path", json(), children = children.toJSArray)
+
+  @inline
+  def feTile(children: ReactNode*): ReactElement =
+    CreateDOMElement("feTile", json(), children = children.toJSArray)
+
+  @inline
+  def metadata(children: ReactNode*): ReactElement =
+    CreateDOMElement("metadata", json(), children = children.toJSArray)
+
+  @inline
+  def feGaussianBlur(children: ReactNode*): ReactElement =
+    CreateDOMElement("feGaussianBlur", json(), children = children.toJSArray)
+
+  @inline
+  def symbol(children: ReactNode*): ReactElement =
+    CreateDOMElement("symbol", json(), children = children.toJSArray)
+
+  @inline
+  def desc(children: ReactNode*): ReactElement =
+    CreateDOMElement("desc", json(), children = children.toJSArray)
+
+  @inline
+  def dl(children: ReactNode*): ReactElement =
+    CreateDOMElement("dl", json(), children = children.toJSArray)
+
+  @inline
+  def meter(children: ReactNode*): ReactElement =
+    CreateDOMElement("meter", json(), children = children.toJSArray)
+
+  @inline
+  def figure(children: ReactNode*): ReactElement =
+    CreateDOMElement("figure", json(), children = children.toJSArray)
+
+  @inline
+  def samp(children: ReactNode*): ReactElement =
+    CreateDOMElement("samp", json(), children = children.toJSArray)
+
+  @inline
+  def rp(children: ReactNode*): ReactElement =
+    CreateDOMElement("rp", json(), children = children.toJSArray)
+
+  @inline
+  def foreignObject(children: ReactNode*): ReactElement =
+    CreateDOMElement("foreignObject", json(), children = children.toJSArray)
+
+  @inline
+  def dfn(children: ReactNode*): ReactElement =
+    CreateDOMElement("dfn", json(), children = children.toJSArray)
+
+  @inline
+  def feConvolveMatrix(children: ReactNode*): ReactElement =
+    CreateDOMElement("feConvolveMatrix", json(), children = children.toJSArray)
+
+  @inline
+  def option(children: ReactNode*): ReactElement =
+    CreateDOMElement("option", json(), children = children.toJSArray)
+
+  @inline
+  def head(children: ReactNode*): ReactElement =
+    CreateDOMElement("head", json(), children = children.toJSArray)
+
+  @inline
+  def video(children: ReactNode*): ReactElement =
+    CreateDOMElement("video", json(), children = children.toJSArray)
+
+  @inline
+  def main(children: ReactNode*): ReactElement =
+    CreateDOMElement("main", json(), children = children.toJSArray)
+
+  @inline
+  def i(children: ReactNode*): ReactElement =
+    CreateDOMElement("i", json(), children = children.toJSArray)
+
+  @inline
+  def sub(children: ReactNode*): ReactElement =
+    CreateDOMElement("sub", json(), children = children.toJSArray)
+
+  @inline
+  def label(children: ReactNode*): ReactElement =
+    CreateDOMElement("label", json(), children = children.toJSArray)
+
+  @inline
+  def button(children: ReactNode*): ReactElement =
+    CreateDOMElement("button", json(), children = children.toJSArray)
+
+  @inline
+  def feComposite(children: ReactNode*): ReactElement =
+    CreateDOMElement("feComposite", json(), children = children.toJSArray)
+
+  @inline
+  def mpath(children: ReactNode*): ReactElement =
+    CreateDOMElement("mpath", json(), children = children.toJSArray)
+
+  @inline
+  def h3(children: ReactNode*): ReactElement =
+    CreateDOMElement("h3", json(), children = children.toJSArray)
+
+  @inline
+  def animate(children: ReactNode*): ReactElement =
+    CreateDOMElement("animate", json(), children = children.toJSArray)
+
+  @inline
+  def discard(children: ReactNode*): ReactElement =
+    CreateDOMElement("discard", json(), children = children.toJSArray)
+
+  @inline
+  def section(children: ReactNode*): ReactElement =
+    CreateDOMElement("section", json(), children = children.toJSArray)
+
+  @inline
+  def linearGradient(children: ReactNode*): ReactElement =
+    CreateDOMElement("linearGradient", json(), children = children.toJSArray)
+
+  @inline
+  def text(children: ReactNode*): ReactElement =
+    CreateDOMElement("text", json(), children = children.toJSArray)
+
+  @inline
+  def div(children: ReactNode*): ReactElement =
+    CreateDOMElement("div", json(), children = children.toJSArray)
+
+  @inline
+  def audio(children: ReactNode*): ReactElement =
+    CreateDOMElement("audio", json(), children = children.toJSArray)
+
+  @inline
+  def tspan(children: ReactNode*): ReactElement =
+    CreateDOMElement("tspan", json(), children = children.toJSArray)
+
+  @inline
+  def mark(children: ReactNode*): ReactElement =
+    CreateDOMElement("mark", json(), children = children.toJSArray)
+
+  @inline
+  def animateMotion(children: ReactNode*): ReactElement =
+    CreateDOMElement("animateMotion", json(), children = children.toJSArray)
+
+  @inline
+  def form(children: ReactNode*): ReactElement =
+    CreateDOMElement("form", json(), children = children.toJSArray)
+
+  @inline
+  def textarea(children: ReactNode*): ReactElement =
+    CreateDOMElement("textarea", json(), children = children.toJSArray)
+
+  @inline
+  def marker(children: ReactNode*): ReactElement =
+    CreateDOMElement("marker", json(), children = children.toJSArray)
+
+  @inline
+  def noscript(children: ReactNode*): ReactElement =
+    CreateDOMElement("noscript", json(), children = children.toJSArray)
+
+  @inline
+  def dd(children: ReactNode*): ReactElement =
+    CreateDOMElement("dd", json(), children = children.toJSArray)
+
+  @inline
+  def radialGradient(children: ReactNode*): ReactElement =
+    CreateDOMElement("radialGradient", json(), children = children.toJSArray)
+
+  @inline
+  def rect(children: ReactNode*): ReactElement =
+    CreateDOMElement("rect", json(), children = children.toJSArray)
+
+  @inline
+  def feDisplacementMap(children: ReactNode*): ReactElement =
+    CreateDOMElement("feDisplacementMap",
+                     json(),
+                     children = children.toJSArray)
+
+  @inline
+  def switch(children: ReactNode*): ReactElement =
+    CreateDOMElement("switch", json(), children = children.toJSArray)
+
+  @inline
+  def data(children: ReactNode*): ReactElement =
+    CreateDOMElement("data", json(), children = children.toJSArray)
+
+  @inline
+  def strong(children: ReactNode*): ReactElement =
+    CreateDOMElement("strong", json(), children = children.toJSArray)
+
+}
