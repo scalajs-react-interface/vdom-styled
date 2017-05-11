@@ -40,7 +40,7 @@ bintrayOrganization := Some("scalajs-react-interface")
 
 bintrayRepository := "maven"
 
-bintrayVcsUrl := Some("git@github.com:scalajs-react-interface/vdom.git")
+bintrayVcsUrl := Some("git@github.com:scalajs-react-interface/vdom-styled.git")
 
 publishArtifact in Test := false
 
