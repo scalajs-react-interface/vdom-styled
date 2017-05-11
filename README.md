@@ -11,6 +11,7 @@ An addon to vdom that provides styled tags.
 ### Dependency:
 
     "scalajs-react-interface" %%% "vdom" % "version"
+    "scalajs-react-interface" %%% "vdom-styled" % "version"
 
 ### How to use:
 ```scala
