@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/scalajs-react-interface/vdom-styled.svg?branch=master)](https://travis-ci.org/scalajs-react-interface/vdom-styled)
+[ ![Download](https://api.bintray.com/packages/scalajs-react-interface/maven/vdom-styled/images/download.svg) ](https://bintray.com/scalajs-react-interface/maven/vdom-styled/_latestVersion)
+
 # vdom-styled
 
 An addon to vdom that provides styled tags.
