@@ -48,15 +48,3 @@ publishArtifact in Test := false
 resolvers += Resolver.bintrayRepo("scalajs-react-interface", "maven")
 libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.0" % Test
 scalaJSStage in Global := FastOptStage
-
-
-//Tasks:
-Tasks.taskSettings
-
-//Integration Incubation and Test Project:
-import IntegrationProjectsSettings._
-val vdom = project in file(".")
-val incubationMacros = (project in file("./macros"))
-  .settings(commonSettings,macrosSettings).enablePlugins(ScalaJSPlugin).dependsOn(vdom)
-val incubation =  (project in file("./incubation"))
-  .settings(commonSettings,incubationSettings).enablePlugins(ScalaJSPlugin).dependsOn(incubationMacros)
